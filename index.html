@@ -89,7 +89,75 @@
                       <strong>350&euro;</strong>/person
                     </p>
                 </div>
-              </div>
+                <!--buttom-->
+                <button type="button" class="btn btn-warning col-12" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Prenota
+                </button>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Prenota</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form class="row g-3">
+                          <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                          </div>
+                          <div class="col-12">
+                            <label for="inputAddress" class="form-label">Nome passegiero</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Mario rossi">
+                          </div>
+                          
+                          <div class="col-md-12">
+                            <label for="inputState" class="form-label">Aeroporto di partenza</label>
+                            <select id="inputState" class="form-select">
+                              <option selected>Aeroporto di Milano Linate</option>
+                              <option>Aeroporto di Bergamo Orio al Serio</option>
+                              <option>Aeroporto di Venezia</option>
+                              <option>Aeroporto di Catania</option>
+                              <option>Aeroporto di Bologna</option>
+                              <option>Aeroporto di Napoli</option>
+                              <option>Altro...</option>
+                            </select>
+                          </div>
+                            <fieldset disabled="">
+                              <div class="mb-3">
+                                <label for="disabledTextInput" class="form-label">Destinazione</label>
+                                <input type="text" id="disabledTextInput" class="form-control" placeholder="Eagle Beach, Aruba">
+                              </div>
+                            </fieldset>
+                            <div class="col ">
+                            <label for="start">Data di partenza:</label>
+                              <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+                            </div>
+                            <div class="col">
+                              <label for="start">Data di ritorno:</label>
+                                <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+                              </div>
+                          <div class="col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck">
+                              <label class="form-check-label" for="gridCheck">
+                                Acconsento al trattamento dei dati sensibili
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <button type="submit" class="btn btn-warning">Vai al pagamento</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              </div> <!--div di chiusura card 1-->
 
               <!--card 2-->
               <div class="col-12 col-lg-4">   
@@ -113,7 +181,75 @@
                       <strong>370&euro;</strong>/person
                     </p>
                 </div>
-              </div>
+                <!--buttom-->
+                <button type="button" class="btn btn-success col-12" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Prenota
+                </button>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Prenota</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form class="row g-3">
+                          <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                          </div>
+                          <div class="col-12">
+                            <label for="inputAddress" class="form-label">Nome passegiero</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Mario rossi">
+                          </div>
+                          
+                          <div class="col-md-12">
+                            <label for="inputState" class="form-label">Aeroporto di partenza</label>
+                            <select id="inputState" class="form-select">
+                              <option selected>Aeroporto di Milano Linate</option>
+                              <option>Aeroporto di Bergamo Orio al Serio</option>
+                              <option>Aeroporto di Venezia</option>
+                              <option>Aeroporto di Catania</option>
+                              <option>Aeroporto di Bologna</option>
+                              <option>Aeroporto di Napoli</option>
+                              <option>Altro...</option>
+                            </select>
+                          </div>
+                            <fieldset disabled="">
+                              <div class="mb-3">
+                                <label for="disabledTextInput" class="form-label">Destinazione</label>
+                                <input type="text" id="disabledTextInput" class="form-control" placeholder="Salto Angel">
+                              </div>
+                            </fieldset>
+                            <div class="col ">
+                            <label for="start">Data di partenza:</label>
+                              <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+                            </div>
+                            <div class="col">
+                              <label for="start">Data di ritorno:</label>
+                                <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+                              </div>
+                          <div class="col-12">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck">
+                              <label class="form-check-label" for="gridCheck">
+                                Acconsento al trattamento dei dati sensibili
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <button type="submit" class="btn btn-success">Vai al pagamento</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>              
+              </div> <!--div di chiusura card 2-->
 
               <!--card 3-->
               <div class="col-12 col-lg-4">   
@@ -136,8 +272,76 @@
                     <p class="text-center ">
                       <strong>400&euro;</strong>/person
                     </p>
+                    <!--buttom-->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                      Prenota
+                    </button>
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Prenota</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form class="row g-3">
+                              <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                              </div>
+                              <div class="col-12">
+                                <label for="inputAddress" class="form-label">Nome passegiero</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Mario rossi">
+                              </div>
+                              
+                              <div class="col-md-12">
+                                <label for="inputState" class="form-label">Aeroporto di partenza</label>
+                                <select id="inputState" class="form-select">
+                                  <option selected>Aeroporto di Milano Linate</option>
+                                  <option>Aeroporto di Bergamo Orio al Serio</option>
+                                  <option>Aeroporto di Venezia</option>
+                                  <option>Aeroporto di Catania</option>
+                                  <option>Aeroporto di Bologna</option>
+                                  <option>Aeroporto di Napoli</option>
+                                  <option>Altro...</option>
+                                </select>
+                              </div>
+                                <fieldset disabled="">
+                                  <div class="mb-3">
+                                    <label for="disabledTextInput" class="form-label">Destinazione</label>
+                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Monti pirenei">
+                                  </div>
+                                </fieldset>
+                                <div class="col ">
+                                <label for="start">Data di partenza:</label>
+                                  <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+                                </div>
+                                <div class="col">
+                                  <label for="start">Data di ritorno:</label>
+                                    <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+                                  </div>
+                              <div class="col-12">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                                  <label class="form-check-label" for="gridCheck">
+                                    Acconsento al trattamento dei dati sensibili
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Vai al pagamento</button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
-              </div>
+              </div><!--div di chiusura 3 card-->
             </div><!--div di chiusura 2 row-->
           </div><!--div di chiusura col-->
         </div> <!--div di chiusura row-->
